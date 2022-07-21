@@ -5,7 +5,7 @@ import styled from "styled-components";
 import linkedin from "./assets/linkedin.png";
 import Home from "./components/Home";
 import Timer from "./components/Timer";
-import Background from "./city.jpg";
+import Background from "./assets/BG.jpg";
 import Footer from "./components/Footer";
 
 const GlobalStyle = createGlobalStyle`
