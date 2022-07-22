@@ -5,7 +5,7 @@ import styled from "styled-components";
 import linkedin from "./assets/linkedin.png";
 import Home from "./components/Home";
 import Timer from "./components/Timer";
-import Background from "./assets/BG.jpg";
+import background from "./assets/bg.jpg";
 import Footer from "./components/Footer";
 
 const GlobalStyle = createGlobalStyle`
@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
   body{
-    background-image: url(${Background});
+    background-image: url(${background});
     background-repeat: no-repeat;
     background-size: cover;
     @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
