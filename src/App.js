@@ -44,6 +44,9 @@ const Li = styled.li`
     font-size:0.78rem;
   }
 `;
+const A = styled.a`
+text-decoration: none;
+`
 const Item = styled(Link)`
   text-decoration: none;
   color: black;
@@ -63,7 +66,9 @@ export default function App() {
               <Item to="/Timer">
                 <Li>CRONÔMETRO</Li>
               </Item>
+              <A href="https://jade-khapse-8a6d7c.netlify.app/">
               <Li>SUSTENTABILIDADE</Li>
+              </A>
             </Ul>
             <a href="https://www.linkedin.com/in/yuri-gomes-992314220/">
               <img src={linkedin} alt="" />
