@@ -6,6 +6,7 @@ import linkedin from "./assets/linkedin.png";
 import Home from "./components/Home";
 import Timer from "./components/Timer";
 import Footer from "./components/Footer";
+import backImage from './assets/fundo.jpg'
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -14,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
   body{
-    background-image: url("https://images.hdqwalls.com/wallpapers/neon-city-lights-4k-u3.jpg");
+    background-image: url(${backImage});
     background-repeat: no-repeat;
     background-size: cover;
     @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");

@@ -6,7 +6,6 @@ const MainBox = styled.div`
   margin-top: 30vh;
   margin-left:2vw;
   height: 30vh;
-  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
